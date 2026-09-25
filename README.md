@@ -31,7 +31,8 @@ CloudWatch monitoring and a Bash health-check script.
 I documented the Version 1 architecture separately, including the
 architecture diagram and explanation.
 
-[View Version 1 Architecture](architecture/architecture-v1.md)
+[View Version 1 Architecture](./architecture/architecture-v1.md)
+
 
 # Version 1
 
@@ -77,6 +78,47 @@ Bash health check
 - Internet Gateway
 - Route Table
 - Security Group
+
+## Evidence
+
+### AWS Infrastructure
+
+![VPC](./screenshots/1.VPC.png)
+
+![Public Subnet](./screenshots/2.public-subnet.png)
+
+![Public Route Table](./screenshots/4.%20public-route-table.png)
+
+![Security Group](./screenshots/5.security-group-public-ec2.png)
+
+![Public EC2](./screenshots/6%20.public-ec2.png)
+
+### Website
+
+![Portfolio Website](./screenshots/7.Live-portfolio-nginx-1.png)
+![Portfolio Website](./screenshots/8.%20Live-portfolio-nginx-2.png)
+![Portfolio Website](./screenshots/9.%20Live-portfolio-nginx-3.png)
+
+### Monitoring
+
+![EC2 CloudWatch Role](./screenshots/10.%20EC2-CloudWatch-Role.png)
+
+![CloudWatch Metrics](./screenshots/11.%20cloudwatch-metrics-dashboard.png)
+
+![CloudWatch Dashboard](./screenshots/11.%20cloudwatch-metrics-dashboard.png)
+
+![CPU Alarm](./screenshots/12.%20cloudwatch-alarm.png)
+
+![CPU SNS Alert](./screenshots/13.%20CPU-alerts-SNS.png)
+### Troubleshooting
+
+![Health Check](./screenshots/17.%20nginx-health-check.png)
+
+![Nginx Failure](./screenshots/15.%20nginx-failure.png)
+
+![Nginx Recovered](./screenshots/16.%20nginx-recovered.png)
+
+
 
 # Why I built this
 
