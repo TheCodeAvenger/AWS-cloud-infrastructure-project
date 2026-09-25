@@ -1,3 +1,5 @@
+<-------------AWS infrastructure , Monitoring and troubleshooting-------------->
+
 # AWS Cloud Infrastructure Lab
 
 -This is a hands-on AWS project that I built to understand how a
@@ -6,7 +8,6 @@ basic web server works in AWS.
 I didn't want to just study AWS services separately, so I created
 the infrastructure myself and connected the different parts
 together.
-<-------------AWS infrastructure , Monitoring and troubleshooting-------------->
 
 
 The first version includes a VPC, public subnet, EC2, Nginx,
